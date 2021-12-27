@@ -27,9 +27,9 @@
 
 @media (min-width: 769px) {
     .img-profile {
-        margin-top: 10%!important;
-        width: 40%;
-        height: 40%;
+        margin-top: 7%!important;
+        width: 30%;
+        height: 30%;
     }
 
 
@@ -70,7 +70,7 @@
     padding: 8px;
     margin: 4px;
     border:1px solid black;
-    border-radius: 4px;
+    border-radius: .25rem;
 }
 
 .contact-link {
@@ -89,4 +89,16 @@
  .licorice_font {
      font-family: 'Licorice', cursive;
     
+}
+
+.bg-play-store {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+.bg-link-in {
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
 }
