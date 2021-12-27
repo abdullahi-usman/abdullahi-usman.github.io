@@ -1,0 +1,92 @@
+﻿
+@media (max-width: 768px) {
+    .img-profile {
+        margin-top: 45%!important;
+        width: 60%;
+        height: 60%;
+    }
+
+
+    .yuji_font {
+        
+        font-size: 1.8em;
+    }
+
+    .licorice_font {
+        font-size: 1.2em;
+    }
+
+    .link-container {
+        width: 100%;
+    }
+
+    .container-contact-links {
+        margin-top: 18%;
+    }
+}
+
+@media (min-width: 769px) {
+    .img-profile {
+        margin-top: 10%!important;
+        width: 40%;
+        height: 40%;
+    }
+
+
+    .yuji_font {
+        font-size: 3em;
+    }
+
+    .licorice_font {
+       
+        font-size: 1.8em;
+    }
+}
+
+.container-parent {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-profile{
+    display: block;
+    margin: auto;
+}
+
+.container-info {
+    text-align:center;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.container-contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.link-container {
+    padding: 8px;
+    margin: 4px;
+    border:1px solid black;
+    border-radius: 4px;
+}
+
+.contact-link {
+    color: forestgreen;
+    padding: 8px;
+    margin: 8px;
+    text-decoration:none;
+    font-family:cursive;
+}
+
+.yuji_font {
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+   
+}
+
+ .licorice_font {
+     font-family: 'Licorice', cursive;
+    
+}
