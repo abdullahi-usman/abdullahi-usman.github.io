@@ -7,7 +7,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Yuji+Hentaigana+Akebono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Yuji+Hentaigana+Akebono&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css" />
 
     <title>Abdullahi Usman</title>
@@ -16,7 +16,19 @@
 </head>
 <body>
     <div class="container-parent">
-        <img class="img-profile" src="logo.png" alt="profile image"/>
+        <div class="menu" id="menu-btn" role="button">
+            <img src="icons/list_black_24dp.svg" alt="menu image" />
+        </div>
+        <div id="menu-background" class="menu-background" hidden>
+            <div class="menu-items">
+                <div role="button"><button class="menu-item" onclick="coming_soon()"> Projects</button></div>
+                <div role="button"><button class="menu-item" onclick="coming_soon()">About</button></div>
+            </div>
+
+            <div id="menu-notice" class="menu-notice" hidden>Coming soon</div>
+        </div>
+
+        <img class="img-profile" src="logo.png" alt="profile image" />
 
         <div class="container-info">
             <div class="yuji_font">
@@ -32,16 +44,17 @@
                     <a href="https://play.google.com/store/apps/dev?id=6243316749639111813" target="_blank" class="contact-link">Google Play</a>
                 </div>
 
-              
+
 
                 <div class="link-container bg-link-in" role="alert">
                     <a href=" https://www.linkedin.com/in/abdullahi-usman/" target="_blank" class="contact-link">LinkedIn</a>
                 </div>
 
-               
+
             </div>
 
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

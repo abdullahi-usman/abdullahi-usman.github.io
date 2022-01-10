@@ -1,14 +1,13 @@
 ﻿
 @media (max-width: 768px) {
     .img-profile {
-        margin-top: 45%!important;
+        margin-top: 45% !important;
         width: 60%;
         height: 60%;
     }
 
 
     .yuji_font {
-        
         font-size: 1.8em;
     }
 
@@ -27,7 +26,7 @@
 
 @media (min-width: 769px) {
     .img-profile {
-        margin-top: 7%!important;
+        margin-top: 7% !important;
         width: 30%;
         height: 30%;
     }
@@ -38,7 +37,6 @@
     }
 
     .licorice_font {
-       
         font-size: 1.8em;
     }
 }
@@ -49,27 +47,27 @@
     margin-left: auto;
 }
 
-.img-profile{
+.img-profile {
     display: block;
     margin: auto;
 }
 
 .container-info {
-    text-align:center;
+    text-align: center;
     margin-top: 18px;
     margin-bottom: 12px;
 }
 
-.container-contact-links{
+.container-contact-links {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
 }
 
 .link-container {
     padding: 8px;
     margin: 4px;
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: .25rem;
 }
 
@@ -77,18 +75,16 @@
     color: forestgreen;
     padding: 8px;
     margin: 8px;
-    text-decoration:none;
-    font-family:cursive;
+    text-decoration: none;
+    font-family: cursive;
 }
 
 .yuji_font {
     font-family: 'Yuji Hentaigana Akebono', cursive;
-   
 }
 
- .licorice_font {
-     font-family: 'Licorice', cursive;
-    
+.licorice_font {
+    font-family: 'Licorice', cursive;
 }
 
 .bg-play-store {
@@ -101,4 +97,76 @@
     color: #41464b;
     background-color: #e2e3e5;
     border-color: #d3d6d8;
+}
+
+.menu {
+    border-color: #d3d6d8;
+    border-radius: .3em;
+    background: border-box #e2e3e5;
+    box-shadow: 0 0 .5em 0 #cfe2ff;
+    display: flex;
+    width: 2.5em;
+    height: 2.5em;
+    cursor: pointer;
+    z-index: 12;
+}
+
+.menu img {
+    text-align: center;
+    font-size:medium;
+    margin: auto;
+}
+
+.menu-btn-clicked {
+    box-shadow: 0 0 2em 0.5em #cfe2ff;
+}
+
+.menu-background {
+    position: absolute;
+    z-index: 10;
+    width: 80%;
+    height: 90%;
+    background: border-box #12182080;
+    border-radius: .5em;
+}
+
+.menu-items {
+    background: content-box #7c7c7c;
+    text-align: center;
+    margin-bottom: 35vh;
+    margin-top: 35vh;
+    list-style-type: none;
+    
+}
+
+.menu-item {
+    border: none;
+    background: none;
+    font-size: xx-large;
+    font-family: 'The Nautigal', cursive;
+    cursor: pointer;
+    
+}
+
+    .menu-item:hover {
+        text-shadow: 0 0 4px black;
+    }
+
+.menu-items li {
+    display: inline-block;
+}
+
+.menu-notice {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    text-justify: inter-word;
+    color: white;
+    background: border-box #616366;
+    border-bottom-left-radius: .3em;
+    border-bottom-right-radius: .3em;
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    font-size:medium;
 }
