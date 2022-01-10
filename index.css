@@ -122,6 +122,7 @@
 }
 
 .menu-background {
+    margin-top: 0.3%;
     position: absolute;
     z-index: 10;
     width: 80%;
