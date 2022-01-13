@@ -16,8 +16,21 @@
 </head>
 <body>
     <div class="container-parent">
-        <div class="menu" id="menu-btn" role="button">
-            <img src="icons/list_black_24dp.svg" alt="menu image" />
+        <div>
+            <div class="menu button-header button-header-shadow" id="menu-btn" role="button">
+                <img src="icons/list_black_24dp.svg" alt="menu image" />
+            </div>
+
+           
+            <div id="menu-desktop" class="menu-desktop">
+                <div class="button-header" id="menu-btn-projects" role="button">
+                    <button class="menu-desktop-btn">Projects</button>
+                </div>
+
+                <div class="button-header" id="menu-btn-about" role="button">
+                   <button class="menu-desktop-btn">About</button>
+                </div>
+            </div>
         </div>
         <div id="menu-background" class="menu-background" hidden>
             <div class="menu-items">
@@ -27,6 +40,8 @@
 
             <div id="menu-notice" class="menu-notice" hidden>Coming soon</div>
         </div>
+
+
 
         <img class="img-profile" src="logo.png" alt="profile image" />
 
