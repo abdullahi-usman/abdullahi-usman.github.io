@@ -144,7 +144,7 @@
 }
 
 .menu-items {
-    background: content-box #7c7c7c;
+    background: radial-gradient(#cfe2ff, transparent);
     text-align: center;
     margin-bottom: 35vh;
     margin-top: 35vh;
@@ -154,6 +154,7 @@
 .menu-item {
     border: none;
     background: none;
+    width: 100%;
     font-size: xx-large;
     font-family: 'The Nautigal', cursive;
     cursor: pointer;
