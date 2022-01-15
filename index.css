@@ -217,6 +217,7 @@
 
 .menu-desktop-anim {
     display: block;
+    position: absolute;
     margin-top: 0.3em;
     animation-duration: 3s;
     animation-name: desktop-menu-anim;
