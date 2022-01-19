@@ -5,9 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="/icons/logo.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Yuji+Hentaigana+Akebono&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="layout.css"/>
     <link rel="stylesheet" href="index.css" />
 
     <title>Abdullahi Usman</title>
@@ -23,19 +24,19 @@
 
            
             <div id="menu-desktop" class="menu-desktop">
-                <div class="button-header" id="menu-btn-projects" role="button">
+                <a class="button-header" id="menu-btn-projects" role="button" href="projects.html">
                     <button class="menu-desktop-btn">Projects</button>
-                </div>
+                </a>
 
-                <div class="button-header" id="menu-btn-about" role="button">
+                <a class="button-header" id="menu-btn-about" role="button" href="about.html">
                    <button class="menu-desktop-btn">About</button>
-                </div>
+                </a>
             </div>
         </div>
         <div id="menu-background" class="menu-background" hidden>
             <div class="menu-items">
-                <div role="button"><button class="menu-item" onclick="coming_soon()"> Projects</button></div>
-                <div role="button"><button class="menu-item" onclick="coming_soon()">About</button></div>
+                <a role="button" href="projects.html"><button class="menu-item" onclick="coming_soon()"> Projects</button></a>
+                <a role="button" href="about.html"><button class="menu-item" onclick="coming_soon()">About</button></a>
             </div>
 
             <div id="menu-notice" class="menu-notice" hidden>Coming soon</div>

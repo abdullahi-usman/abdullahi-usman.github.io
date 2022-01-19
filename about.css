@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
+
+.container-about {
+    max-width: 600px;
+    min-width: 400px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-about {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    background-color: rgb(142, 152, 161);
+    box-shadow: 0 0 8px rgb(122, 102, 102);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 8px;
+    border-color: bisque;
+}
+
+.font-about {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+@media screen and (max-width: 769px) {
+
+    .about-about {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .container-about {
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .font-about {
+        font-size: x-large;
+    }
+}

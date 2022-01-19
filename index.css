@@ -22,6 +22,13 @@
     .container-contact-links {
         margin-top: 18%;
     }
+
+    .menu-background {
+        left: 0;
+        width: 90%;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
 }
 
 @media (min-width: 769px) {
@@ -31,7 +38,6 @@
         height: 30%;
     }
 
-
     .yuji_font {
         font-size: 3em;
     }
@@ -39,12 +45,12 @@
     .licorice_font {
         font-size: 1.8em;
     }
-}
 
-.container-parent {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
+    .menu-background {
+        width: 80%;
+        margin-left: unset;
+        margin-right: unset;
+    }
 }
 
 .img-profile {
@@ -114,10 +120,14 @@
     background: border-box #e2e3e5;
 }
 
-    .button-header > button {
-        font-family: cursive;
-        border-block-color: none;
-    }
+a.button-header  {
+    text-decoration: none;
+}
+
+.button-header > button {
+    font-family: cursive;
+    border-block-color: none;
+}
 
 .button-header-shadow {
     box-shadow: 0 0 .5em 0 #cfe2ff;
@@ -137,7 +147,6 @@
     margin-top: 0.3%;
     position: absolute;
     z-index: 10;
-    width: 80%;
     height: 90%;
     background: border-box #12182080;
     border-radius: .5em;
