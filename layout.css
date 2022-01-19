@@ -1,0 +1,19 @@
+
+.container-parent {
+    width: 80%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.font-cursive-native {
+    font-family: cursive;
+}
+
+@media  screen and (max-width: 769px) {
+    .container-parent {
+        width: 100%;
+        max-width: unset;
+    }
+}
