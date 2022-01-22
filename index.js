@@ -45,7 +45,3 @@ function coming_soon() {
     let coming_soon = document.getElementById("menu-notice")
     coming_soon.removeAttribute("hidden")
 }
-
-function lie() {
-    console.log("Beautiful");
-}
