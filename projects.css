@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Open+Sans:wght@300&display=swap');
+
+html {
+    background: linear-gradient(to right bottom, #b6d4fe 25%, #46687e 60%, #274269 100%);
+}
+
+.container-projects {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid #6e8696;
+    /* Blue */
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    animation: spin 2s alternate-reverse infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.project-view-logo {
+    align-self: center;
+}
+
+
+.container-wait-for-projects {
+    display: block;
+}
+
+.wait-for-projects-font {
+    font-family: monospace;
+    font-weight: 800;
+    font-size: xx-large;
+
+}
+
+.wait-for-projects-error-icon-head {
+    height: 30vh;
+    width: 10rem;
+    border-top: 20em;
+    background-color: #6e8696;
+}
+
+.wait-for-projects-error-icon-bottom {
+    height: 5vh;
+    width: 10rem;
+    background-color: #6e8696;
+}
+
+.wait-for-projects-error-icon {
+    font-size: 15rem;
+    font-weight: 900;
+    font-family: serif;
+    color: rgb(158, 158, 158);
+}
+
+
+.projects-view-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.project-view {
+    display: flex;
+    background-color: rgb(113, 166, 167, 0.4);
+    padding: 8px;
+}
+
+.project-view-data {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.project-view-date {
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+
+}
+
+.project-view-date>div {
+    text-align: start;
+}
+
+.project-view-title {
+    font-family: 'Patrick Hand', cursive;
+    text-align: start;
+}
+
+.project-view-link {
+    font-family: cursive;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    max-width: 15ch;
+    padding: 8px;
+    margin-top: 8px;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    border-width: .8rem;
+    border-radius: .5rem;
+}
+
+.project-view-header {
+    display: flex;
+}
+
+
+.project-view-date {
+    flex-flow: row wrap;
+    flex: 2;
+}
+
+@media screen and (max-width: 768px) {
+
+    .project-view {
+        flex-flow: column wrap;
+    }
+
+    .project-view-title {
+        flex: 2;
+        align-self: center;
+    }
+
+    .project-view-date {
+        align-self: center;
+        text-align: justify;
+    }
+
+    .project-view-date {
+        align-self: flex-start;
+    }
+
+
+    .project-view-date {
+        font-size: medium;
+    }
+
+    .project-view-title {
+        font-size: large;
+    }
+
+    .project-view-logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .project-view-date>p {
+        text-align: justify;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .project-view-date {
+        font-size: x-large;
+        font-weight: 200;
+    }
+
+    .project-view-title {
+        font-size: xx-large;
+        font-weight: 400;
+    }
+
+
+    .project-view-logo {
+        width: 8rem;
+        height: 8rem;
+    }
+
+
+    .project-view-date>p {
+        text-align: start;
+    }
+
+}

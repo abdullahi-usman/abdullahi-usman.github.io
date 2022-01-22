@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="projects.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+</head>
+
+<body>
+    <div class="container-parent">
+        <div class="container-projects">
+            <div id="container-wait-for-projects" class="container-wait-for-projects">
+
+                <div id="wait-for-projects-loader" class="loader"></div>
+
+                <div id="wait-for-projects-error-icon" class="wait-for-projects-error-icon" hidden>
+                    !
+                </div>
+
+                <p id="wait-for-projects-status" class="wait-for-projects-font">
+                    Please Wait
+                </p>
+                <!-- <div id="projects-view-container" class="projects-view-container">
+                    <div class="project-view">
+                        <img class="project-view-logo" src="icons/logo.png" alt=""/>
+                        <div class="project-view-header">
+                            <div class="project-view-title">Hello World</div>
+                            <div class="project-view-date"><div>This is the hello world program that i have written back in the old days</div></div>
+                            <div class="project-view-footer"></div>
+                        </div>
+                        
+                    </div>
+                   
+                </div> -->
+
+                <!-- <div id="projects-view-container" class="projects-view-container">
+                    <div class="project-view">
+                        <div class="project-view-header">
+
+                            <img class="project-view-logo" src="icons/logo.png" alt="" />
+                            <div class="project-view-title">Hello World</div>
+                        </div>
+
+                        <div class="project-view-data">
+
+                            <div class="project-view-date">
+                                <div>This is the hello world program that i have written back in the old days</div>
+                            </div>
+                            <div class="project-view-footer"><a class="project-view-link" href="${project.data().link}" alt="project-link">Get Project</a></div>
+                        </div>
+
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="projects.js"></script>
+</body>
+
+</html>
