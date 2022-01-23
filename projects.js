@@ -82,6 +82,7 @@ window.onload = event => {
             })
 
             document.getElementById("project-title").removeAttribute("hidden")
+            document.getElementById("container-projects").style.justifyContent = "flex-start"
             container_wait_for_projects.innerHTML = project_views
         } else {
             setErrorMsg("No Project Found!")
