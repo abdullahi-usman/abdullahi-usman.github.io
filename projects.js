@@ -4,6 +4,7 @@ const wait_for_projects_loader = document.getElementById("wait-for-projects-load
 const container_wait_for_projects = document.getElementById("container-wait-for-projects")
 
 
+
 function setErrorMsg(msg) {
     wait_for_projects_status.innerText = msg
     wait_for_projects_loader.setAttribute("hidden", "true")
@@ -80,6 +81,7 @@ window.onload = event => {
                 }
             })
 
+            document.getElementById("project-title").removeAttribute("hidden")
             container_wait_for_projects.innerHTML = project_views
         } else {
             setErrorMsg("No Project Found!")
