@@ -1,14 +1,7 @@
-const wait_for_projects_status = document.getElementById("wait-for-projects-status")
-const wait_for_projects_error_icon = document.getElementById("wait-for-projects-error-icon")
-const wait_for_projects_loader = document.getElementById("wait-for-projects-loader")
-const container_wait_for_projects = document.getElementById("container-wait-for-projects")
-
-
-
 function setErrorMsg(msg) {
-    wait_for_projects_status.innerText = msg
-    wait_for_projects_loader.setAttribute("hidden", "true")
-    wait_for_projects_error_icon.removeAttribute("hidden")
+    document.getElementById("wait-for-projects-status").innerText = msg
+    document.getElementById("wait-for-projects-loader").setAttribute("hidden", "true")
+    document.getElementById("wait-for-projects-error-icon").removeAttribute("hidden")
 }
 
 const firebaseConfig = {
@@ -83,7 +76,7 @@ window.onload = event => {
 
             document.getElementById("project-title").removeAttribute("hidden")
             document.getElementById("container-projects").style.justifyContent = "flex-start"
-            container_wait_for_projects.innerHTML = project_views
+            document.getElementById("container-wait-for-projects").innerHTML = project_views
         } else {
             setErrorMsg("No Project Found!")
         }
